@@ -69,7 +69,43 @@ section{
 	width: 100%;
 }
 
+.whatsapp-leandro {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #198754; /* Verde escuro elegante */
+    color: #fff;
+    border-radius: 50%;
+    font-size: 28px;
+    line-height: 60px;
+    text-align: center;
+    z-index: 9999;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: all 0.3s ease-in-out;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
 
+/* Animação e efeito ao passar o mouse */
+.whatsapp-leandro:hover {
+    background-color: #157347;
+    transform: scale(1.1);
+}
+
+/* Garantia de visibilidade em telas menores */
+@media (max-width: 767px) {
+    .whatsapp-leandro {
+        bottom: 15px;
+        right: 15px;
+        width: 55px;
+        height: 55px;
+        font-size: 24px;
+		display: flex !important;
+    }
+}
 
 
 
