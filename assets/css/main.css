@@ -341,14 +341,14 @@ section{
 **********************/
 .slider-1{
 	text-align: center;
-	background-image: url(../images/familly-back.jpg);
+	background-image: url(../images/background-leandro-area-trabalho.webp);
 }
 #slider_1{
 	background-color: #39496D;
 }
 .slider-1-item-box{
 	color: #fff;
-	padding: 50px;
+	padding: 20px;
 }
 .slider-1-item-box h2{
 	margin:10px auto 20px;
