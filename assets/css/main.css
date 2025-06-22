@@ -216,10 +216,11 @@ section{
 }
 .cta-bg{
 	background-color: #253250;
-	padding: 100px 0;
+	padding: 40px 0;
 }
-.cta h1{
+.cta h2,p{
 	text-transform: uppercase;
+	padding: 5px;
 }
 .cta-btn{
 	margin-top: 20px;
@@ -231,6 +232,9 @@ section{
 .cta-btn a{
 	color: #fff;
 	text-decoration: none;
+}
+.cta strong{
+	color: #969595;
 }
 
 
